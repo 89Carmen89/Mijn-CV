@@ -1,0 +1,72 @@
+ul a{
+color: blue;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+color: blue;
+text-align: center;
+background-color: lightblue;
+}
+li:hover{
+background-color: green;
+border-style: none;
+}
+body{
+  font-family: Verdana;
+  width: 600px;
+  height: 100%;
+  font-size: 13px;
+  background-color: yellow;
+  color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  background-color: lightgreen;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px grey;
+}
+textarea{
+  height: 200px;
+  padding: 5px 4px;
+}
+button:active{
+  background-color: red;
+  color: blue;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px green;
+}
+header, footer, body{
+  Padding: 5px;
+}
+table{
+border-collapse: collapse;
+}
+td, th{
+padding: 10px 5px;
+background-color: lightgreen;
+}
+p, i{
+  background-color: lightgreen;
+  max-width: 400px;
+}
+.h2a{
+  background-color: lightgreen;
+  max-width: 400px;
+}
+.h2b{
+  background-color: lightgreen;
+  max-width: 800px;
+}
+.h2c{
+  background-color: lightgreen;
+  max-width: 400px;
+}
